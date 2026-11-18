@@ -46,15 +46,11 @@ I study how final outcomes can provide useful supervision for intermediate reaso
 **From Cooperative Games to Marginal-Contribution Process Reward Modeling**
 
 <img alt="NeurIPS 2026" src="https://img.shields.io/badge/NeurIPS-2026-2563EB?style=flat-square">
-<img alt="First author, equal contribution" src="https://img.shields.io/badge/First_Author-Equal_Contribution-475569?style=flat-square">
-
-**Yu Bao**<sup>*</sup>, Pak Lon Ip<sup>*</sup>, Qiyu Ruan, Xitong Gao, Chengzhong Xu
+Yu Bao<sup>&#42;</sup>, Pak Lon Ip<sup>&#42;</sup>, Qiyu Ruan, Xitong Gao, Chengzhong Xu
 
 **From final correctness to step-level credit.** SPRM learns a trajectory value model from outcome supervision. Its **Step Value Integration (SVI)** attributes changes in that learned value to individual reasoning steps through an Aumann–Shapley-inspired formulation. Consistency filtering and cross-trajectory inherent scoring complement this supervision to train a dual-head process reward model.
 
 [**Code & training guide →**](https://github.com/by0214/sprm-open) &nbsp; [**Model checkpoints →**](https://huggingface.co/pikobao/SPRM)
-
-<sub>* Equal contribution.</sub>
 
 <br>
 
@@ -63,11 +59,7 @@ I study how final outcomes can provide useful supervision for intermediate reaso
 
 <img alt="ACM MobiSys 2026" src="https://img.shields.io/badge/ACM_MobiSys-2026-0F766E?style=flat-square">
 
-<img alt="Co-first author, equal contribution" src="https://img.shields.io/badge/Co--First_Author-Equal_Contribution-475569?style=flat-square">
-
-Kahou Tam, Wei Niu, **Yu Bao**<sup>*</sup>, Xiaomin Ouyang, Chengzhong Xu, Li Li
-
-<sub>* Yu Bao is a co-first author (equal contribution).</sub>
+Kahou Tam<sup>&#42;</sup>, Wei Niu<sup>&#42;</sup>, Yu Bao<sup>&#42;</sup>, Xiaomin Ouyang, Chengzhong Xu, Li Li
 
 **Efficient LLM finetuning on mobile GPUs.** FBLayout co-designs tensor memory layouts and GPU execution to address conflicting access patterns across forward and backward passes.
 
