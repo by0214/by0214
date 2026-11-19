@@ -7,7 +7,6 @@
 LLM Reasoning &nbsp; · &nbsp; Process Reward Modeling &nbsp; · &nbsp; Efficient AI Systems
 
 <a href="mailto:mc45002@um.edu.mo"><img alt="Email" src="https://img.shields.io/badge/Email-Contact_Me-2563EB?style=flat-square&logo=maildotru&logoColor=white"></a>
-<a href="https://github.com/by0214/sprm-open"><img alt="SPRM source code" src="https://img.shields.io/badge/GitHub-SPRM-181717?style=flat-square&logo=github&logoColor=white"></a>
 <a href="https://huggingface.co/pikobao/SPRM"><img alt="SPRM model checkpoints" src="https://img.shields.io/badge/Hugging_Face-Models-FFD21E?style=flat-square&logo=huggingface&logoColor=black"></a>
 
 <br><br>
@@ -17,14 +16,6 @@ LLM Reasoning &nbsp; · &nbsp; Process Reward Modeling &nbsp; · &nbsp; Efficien
 </div>
 
 ---
-
-## About
-
-I am pursuing an **M.Sc. in Computer Science at the University of Macau**, advised by **Chengzhong Xu** and **Xitong Gao**. I received my bachelor's degree in **Computer Science from Harbin Institute of Technology**. My research connects **LLM reasoning and credit assignment** with **efficient training and inference**.
-
-I study how final outcomes can provide useful supervision for intermediate reasoning steps, and how large models can run effectively on resource-constrained devices. My work spans research formulation, model training, experimental evaluation, and deployment.
-
-**Open to 2027 graduate opportunities** in LLM algorithms, AI search, applied research, and machine learning systems in **mainland China and Hong Kong**.
 
 ## Education
 
@@ -40,30 +31,40 @@ I study how final outcomes can provide useful supervision for intermediate reaso
 | **LLM post-training** | How can verifiable rewards and teacher feedback improve reasoning through reinforcement learning and distillation? |
 | **Efficient AI systems** | How can memory management and mobile deployment make LLMs practical on edge devices? |
 
-## Selected publications
+## Selected Publications
 
-### SPRM
-**From Cooperative Games to Marginal-Contribution Process Reward Modeling**
+<details>
+<summary><strong>SPRM</strong> &nbsp; <img alt="NeurIPS 2026" src="https://img.shields.io/badge/NeurIPS-2026-2563EB?style=flat-square"></summary>
 
-<img alt="NeurIPS 2026" src="https://img.shields.io/badge/NeurIPS-2026-2563EB?style=flat-square">
+<br>
+
+**SPRM: From Cooperative Games to Marginal-Contribution Process Reward Modeling**
+
 Yu Bao<sup>&#42;</sup>, Pak Lon Ip<sup>&#42;</sup>, Qiyu Ruan, Xitong Gao, Chengzhong Xu
 
 **From final correctness to step-level credit.** SPRM learns a trajectory value model from outcome supervision. Its **Step Value Integration (SVI)** attributes changes in that learned value to individual reasoning steps through an Aumann–Shapley-inspired formulation. Consistency filtering and cross-trajectory inherent scoring complement this supervision to train a dual-head process reward model.
 
-[**Code & training guide →**](https://github.com/by0214/sprm-open) &nbsp; [**Model checkpoints →**](https://huggingface.co/pikobao/SPRM)
+<a href="https://github.com/by0214/sprm-open"><img alt="Code and training guide" src="https://img.shields.io/badge/GitHub-Code_%26_Training_Guide-181717?style=flat-square&logo=github&logoColor=white"></a>
+<a href="https://huggingface.co/pikobao/SPRM"><img alt="Model checkpoints" src="https://img.shields.io/badge/Hugging_Face-Model_Checkpoints-FFD21E?style=flat-square&logo=huggingface&logoColor=black"></a>
+
+</details>
 
 <br>
 
-### FBLayout
-**Optimizing Memory Layout for Efficient LLM Finetuning on Mobile GPUs**
+<details>
+<summary><strong>FBLayout</strong> &nbsp; <img alt="ACM MobiSys 2026" src="https://img.shields.io/badge/ACM_MobiSys-2026-0F766E?style=flat-square"></summary>
 
-<img alt="ACM MobiSys 2026" src="https://img.shields.io/badge/ACM_MobiSys-2026-0F766E?style=flat-square">
+<br>
+
+**FBLayout: Optimizing Memory Layout for Efficient LLM Finetuning on Mobile GPUs**
 
 Kahou Tam<sup>&#42;</sup>, Wei Niu<sup>&#42;</sup>, Yu Bao<sup>&#42;</sup>, Xiaomin Ouyang, Chengzhong Xu, Li Li
 
 **Efficient LLM finetuning on mobile GPUs.** FBLayout co-designs tensor memory layouts and GPU execution to address conflicting access patterns across forward and backward passes.
 
-[**Paper · ACM Digital Library →**](https://doi.org/10.1145/3745756.3809214)
+<a href="https://doi.org/10.1145/3745756.3809214"><img alt="Paper on ACM Digital Library" src="https://img.shields.io/badge/ACM_Digital_Library-Paper-0F766E?style=flat-square&logo=acm&logoColor=white"></a>
+
+</details>
 
 ## Research & engineering
 
@@ -108,7 +109,9 @@ I am interested in applying **process-level feedback to AI search and multi-step
 
 **Let's connect**
 
-Research discussions · Collaboration · 2027 graduate opportunities
+**Open to 2027 graduate opportunities** in LLM algorithms, AI search, applied research, and machine learning systems in **mainland China and Hong Kong**.
+
+Research discussions · Collaboration
 
 [**mc45002@um.edu.mo**](mailto:mc45002@um.edu.mo)
 
